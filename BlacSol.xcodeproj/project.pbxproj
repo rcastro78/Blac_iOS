@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8264AA62D0BE17600E045AC /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = C8264AA52D0BE17600E045AC /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C83D1FCD2D07EEF100A211C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83D1FB42D07EEF000A211C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83D1FBB2D07EEF000A211C5;
+			remoteInfo = BlacSol;
+		};
+		C83D1FD72D07EEF100A211C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83D1FB42D07EEF000A211C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83D1FBB2D07EEF000A211C5;
+			remoteInfo = BlacSol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C83D1FBC2D07EEF000A211C5 /* BlacSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlacSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83D1FCC2D07EEF100A211C5 /* BlacSolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlacSolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83D1FD62D07EEF100A211C5 /* BlacSolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlacSolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C83D20582D07F79B00A211C5 /* Exceptions for "BlacSol" folder in "BlacSol" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C83D1FBB2D07EEF000A211C5 /* BlacSol */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C83D1FBE2D07EEF000A211C5 /* BlacSol */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C83D20582D07F79B00A211C5 /* Exceptions for "BlacSol" folder in "BlacSol" target */,
+			);
+			path = BlacSol;
+			sourceTree = "<group>";
+		};
+		C83D1FCF2D07EEF100A211C5 /* BlacSolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlacSolTests;
+			sourceTree = "<group>";
+		};
+		C83D1FD92D07EEF100A211C5 /* BlacSolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlacSolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83D1FB92D07EEF000A211C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8264AA62D0BE17600E045AC /* GoogleMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FC92D07EEF100A211C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FD32D07EEF100A211C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8264AA42D0BE17600E045AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83D1FB32D07EEF000A211C5 = {
+			isa = PBXGroup;
+			children = (
+				C83D1FBE2D07EEF000A211C5 /* BlacSol */,
+				C83D1FCF2D07EEF100A211C5 /* BlacSolTests */,
+				C83D1FD92D07EEF100A211C5 /* BlacSolUITests */,
+				C8264AA42D0BE17600E045AC /* Frameworks */,
+				C83D1FBD2D07EEF000A211C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C83D1FBD2D07EEF000A211C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83D1FBC2D07EEF000A211C5 /* BlacSol.app */,
+				C83D1FCC2D07EEF100A211C5 /* BlacSolTests.xctest */,
+				C83D1FD62D07EEF100A211C5 /* BlacSolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83D1FBB2D07EEF000A211C5 /* BlacSol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83D1FE02D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSol" */;
+			buildPhases = (
+				C83D1FB82D07EEF000A211C5 /* Sources */,
+				C83D1FB92D07EEF000A211C5 /* Frameworks */,
+				C83D1FBA2D07EEF000A211C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C83D1FBE2D07EEF000A211C5 /* BlacSol */,
+			);
+			name = BlacSol;
+			packageProductDependencies = (
+				C8264AA52D0BE17600E045AC /* GoogleMaps */,
+			);
+			productName = BlacSol;
+			productReference = C83D1FBC2D07EEF000A211C5 /* BlacSol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C83D1FCB2D07EEF100A211C5 /* BlacSolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83D1FE32D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSolTests" */;
+			buildPhases = (
+				C83D1FC82D07EEF100A211C5 /* Sources */,
+				C83D1FC92D07EEF100A211C5 /* Frameworks */,
+				C83D1FCA2D07EEF100A211C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C83D1FCE2D07EEF100A211C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C83D1FCF2D07EEF100A211C5 /* BlacSolTests */,
+			);
+			name = BlacSolTests;
+			packageProductDependencies = (
+			);
+			productName = BlacSolTests;
+			productReference = C83D1FCC2D07EEF100A211C5 /* BlacSolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C83D1FD52D07EEF100A211C5 /* BlacSolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83D1FE62D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSolUITests" */;
+			buildPhases = (
+				C83D1FD22D07EEF100A211C5 /* Sources */,
+				C83D1FD32D07EEF100A211C5 /* Frameworks */,
+				C83D1FD42D07EEF100A211C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C83D1FD82D07EEF100A211C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C83D1FD92D07EEF100A211C5 /* BlacSolUITests */,
+			);
+			name = BlacSolUITests;
+			packageProductDependencies = (
+			);
+			productName = BlacSolUITests;
+			productReference = C83D1FD62D07EEF100A211C5 /* BlacSolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83D1FB42D07EEF000A211C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					C83D1FBB2D07EEF000A211C5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					C83D1FCB2D07EEF100A211C5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C83D1FBB2D07EEF000A211C5;
+					};
+					C83D1FD52D07EEF100A211C5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C83D1FBB2D07EEF000A211C5;
+					};
+				};
+			};
+			buildConfigurationList = C83D1FB72D07EEF000A211C5 /* Build configuration list for PBXProject "BlacSol" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83D1FB32D07EEF000A211C5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C83D204E2D07F01A00A211C5 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C83D1FBD2D07EEF000A211C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83D1FBB2D07EEF000A211C5 /* BlacSol */,
+				C83D1FCB2D07EEF100A211C5 /* BlacSolTests */,
+				C83D1FD52D07EEF100A211C5 /* BlacSolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83D1FBA2D07EEF000A211C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FCA2D07EEF100A211C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FD42D07EEF100A211C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83D1FB82D07EEF000A211C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FC82D07EEF100A211C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83D1FD22D07EEF100A211C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C83D1FCE2D07EEF100A211C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83D1FBB2D07EEF000A211C5 /* BlacSol */;
+			targetProxy = C83D1FCD2D07EEF100A211C5 /* PBXContainerItemProxy */;
+		};
+		C83D1FD82D07EEF100A211C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C83D1FBB2D07EEF000A211C5 /* BlacSol */;
+			targetProxy = C83D1FD72D07EEF100A211C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C83D1FDE2D07EEF100A211C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C83D1FDF2D07EEF100A211C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83D1FE12D07EEF100A211C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlacSol/BlacSol.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlacSol/Preview Content\"";
+				DEVELOPMENT_TEAM = NH845KS687;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlacSol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blac;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se necesita tu ubicación para mostrar tu posición en el mapa.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.blac.connect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C83D1FE22D07EEF100A211C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlacSol/BlacSol.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlacSol/Preview Content\"";
+				DEVELOPMENT_TEAM = NH845KS687;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlacSol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blac;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se necesita tu ubicación para mostrar tu posición en el mapa.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.blac.connect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C83D1FE42D07EEF100A211C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.BlacSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlacSol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlacSol";
+			};
+			name = Debug;
+		};
+		C83D1FE52D07EEF100A211C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.BlacSolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlacSol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlacSol";
+			};
+			name = Release;
+		};
+		C83D1FE72D07EEF100A211C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.BlacSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlacSol;
+			};
+			name = Debug;
+		};
+		C83D1FE82D07EEF100A211C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.BlacSolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlacSol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83D1FB72D07EEF000A211C5 /* Build configuration list for PBXProject "BlacSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D1FDE2D07EEF100A211C5 /* Debug */,
+				C83D1FDF2D07EEF100A211C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83D1FE02D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D1FE12D07EEF100A211C5 /* Debug */,
+				C83D1FE22D07EEF100A211C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83D1FE32D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D1FE42D07EEF100A211C5 /* Debug */,
+				C83D1FE52D07EEF100A211C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83D1FE62D07EEF100A211C5 /* Build configuration list for PBXNativeTarget "BlacSolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83D1FE72D07EEF100A211C5 /* Debug */,
+				C83D1FE82D07EEF100A211C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C83D204E2D07F01A00A211C5 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8264AA52D0BE17600E045AC /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C83D204E2D07F01A00A211C5 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C83D1FB42D07EEF000A211C5 /* Project object */;
+}
