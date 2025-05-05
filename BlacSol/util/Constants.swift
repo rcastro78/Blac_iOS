@@ -6,7 +6,7 @@
 //
 struct Constants {
     struct API {
-        static let baseURL = "http://3.17.53.133:3030/mobile/connect/v1/"
+        static let baseURL = "http://3.17.53.133:3030/mobile/connect/v1"
         static let GOOGLE_MAP_KEY="MAP_KEY"
         static let loginEndpoint="\(baseURL)/login"
         static let historialEndpoint="\(baseURL)/get/eventos/history"
